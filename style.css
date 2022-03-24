@@ -1,10 +1,13 @@
 body{
-  background-image: linear-gradient(#F4F9F9, #CCF2F4, #A4EBF3);
+  background-image: linear-gradient(#F4F9F9, #CCF2F4, #488FB1);
   margin: 0;
   text-align: center;
 }
 .menu{
   height:50px;
+}
+main{
+  margin: 60px;
 }
 .intro{
   margin-bottom: 10px;
@@ -39,7 +42,6 @@ body{
   padding: 20px;
   margin: auto;
   width: 1000px;
-  height: 500px;
 }
 .tf{
   padding-top: 20px;
@@ -50,15 +52,19 @@ body{
 }
 .info-train{
   padding: 20px;
+  margin: auto;
+  width: 1000px;
 }
 .quote{
   margin-top: 0;
 }
 .right{
   float: right;
+  margin-left: 10px;
 }
 .left{
   float: left;
+  margin-right: 10px;
 }
 .infor-active{
   padding: 20px;
@@ -77,4 +83,14 @@ body{
 }
 .list-box{
   width: 330px;
+}
+.tf-train{
+  padding:20px 0 20px;
+}
+.train{
+  margin: auto;
+  max-width: 100%;
+  height: 300px;
+  background-size: cover !important;
+  background-position: center !important;
 }
